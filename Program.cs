@@ -42,5 +42,4 @@ internal class Program
 
         Console.WriteLine("Thank you for using the dice throwing simulator. Goodbye!");
     }
-
 }
