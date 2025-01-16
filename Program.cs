@@ -3,8 +3,7 @@ using Mission2;
 
 internal class Program
 {
-    //int totalRolls = 0;
-    private static void Main(string[] args)
+    private static void Main()
     {
         Roll r = new Roll();
 
@@ -21,20 +20,22 @@ internal class Program
         Console.WriteLine("\nDICE ROLLING SIMULATION RESULTS \nEach \"*\" represents 1% of the total number of rolls.\nTotal number of rolls = " + totalRolls + ".\n");
 
         //for each number possible to be rolled
-        //print the number
         for (int index = 0; index < rollResults.Length; index++)
         {
+            //calculate the percentage of the times it was rolled
             int rollSum = rollResults[index];
             int product = rollSum * 100;
             int percent = product / totalRolls;
+
+            //print the number
             string resultString = (index + 2) + ": ";
 
-            //calculate the percentage of the times it was rolled
             //print an asterisk for each percent is was rolled
             for (int i = 0; i < percent; i++)
             {
                 resultString = resultString + "*";
             }
+
             Console.WriteLine(resultString + "\n");
         }
 
