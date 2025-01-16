@@ -16,8 +16,8 @@ namespace Mission2
             }
         }
 
-		public int[] rollDice(int totalRolls)
-		{
+        public int[] rollDice(int totalRolls)
+        {
             Random rnd = new Random();
            
             for (int Count = 0; Count < totalRolls; Count++)
