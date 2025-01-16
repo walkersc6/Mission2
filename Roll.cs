@@ -4,9 +4,6 @@ namespace Mission2
 {
 	internal class Roll
 	{
-
-    //testing
-
         public int[] results = new int[11];
         public Roll()
         {
