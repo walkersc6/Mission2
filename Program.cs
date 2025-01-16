@@ -36,6 +36,7 @@ internal class Program
                 resultString = resultString + "*";
             }
 
+            //print results with a new line
             Console.WriteLine(resultString + "\n");
         }
 

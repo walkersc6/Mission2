@@ -2,10 +2,12 @@
 
 namespace Mission2
 {
-	internal class Roll
+    internal class Roll
 	{
+        //create array to store the results of the dice rolls
         public int[] results = new int[11];
 
+        //initialize each element in the array to be 0 before the dice rolling begins
         public Roll()
         {
             for (int Count = 0; Count < 11; Count++)
