@@ -3,7 +3,7 @@
 namespace Mission2
 {
     internal class Roll
-	{
+    {
         //create array to store the results of the dice rolls
         public int[] results = new int[11];
 
